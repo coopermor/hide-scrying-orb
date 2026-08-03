@@ -91,7 +91,7 @@ public class HideScryingOrbPlugin extends Plugin
 		Widget container = client.getWidget(InterfaceID.PohScryingPool.CONTAINER_RECT0);
 		if (container != null)
 		{
-			wiggler.setHidden(false);
+			container.setHidden(false);
 		}
 		Widget chatModern = client.getWidget(InterfaceID.ToplevelPreEoc.CHAT_CONTAINER);
 		Widget chatClassic = client.getWidget(InterfaceID.ToplevelOsrsStretch.CHAT_CONTAINER);
